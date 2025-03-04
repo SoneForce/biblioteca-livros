@@ -1,0 +1,19 @@
+{
+    "livros": [
+        {
+            "titulo": "Dom Quixote",
+            "autor": "Miguel de Cervantes",
+            "quantidade": 5
+        },
+        {
+            "titulo": "1984",
+            "autor": "George Orwell", 
+            "quantidade": 3
+        },
+        {
+            "titulo": "O Pequeno Príncipe",
+            "autor": "Antoine de Saint-Exupéry",
+            "quantidade": 7
+        }
+    ]
+}
