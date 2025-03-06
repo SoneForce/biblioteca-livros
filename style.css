@@ -1,0 +1,174 @@
+
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 100px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+header.rolagem{
+    background-color: #ffffff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #FE775A;
+}
+
+header i{
+    font-size: 50px;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #FE775A;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 30px;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(imagens/banner.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size:100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-size: 4em;
+}
+
+.banner h1 span{
+    color: #FE775A;
+}
+
+.pesquisa {
+    text-align:center;
+    margin-top: 10px;
+    margin: -250px auto 30px;
+    flex-direction: column;
+    
+    
+}
+
+.pesquisa input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.pesquisa button {
+    padding: 10px;
+    background-color: #FE775A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.pesquisa button:hover {
+    background-color: #fe785ac2;
+}
+
+.pesquisa ul li {
+    background: #f4f4f4;
+    margin: 8px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisa ul li.disponivel {
+    border-left: 10px solid #4CAF50;
+}
+
+.pesquisa ul li.indisponivel {
+    border-left: 10px solid #f44336;
+    color: #77777793;
+}
+
+#resultadoPesquisa {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .pesquisa ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #resultadoPesquisa {
+        max-width: 90%;
+    }
+}
+
+nav ul li a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    animation: balanco 0.50s ease-in-out infinite alternate;
+}
+
+@keyframes balanco {
+    0% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}

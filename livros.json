@@ -1,19 +1,122 @@
-{
-    "livros": [
-        {
-            "titulo": "Dom Quixote",
-            "autor": "Miguel de Cervantes",
-            "quantidade": 5
-        },
-        {
-            "titulo": "1984",
-            "autor": "George Orwell", 
-            "quantidade": 3
-        },
-        {
-            "titulo": "O Pequeno Príncipe",
-            "autor": "Antoine de Saint-Exupéry",
-            "quantidade": 7
-        }
-    ]
-}
+[
+    {
+        "titulo": "Dom Casmurro",
+        "autor": "Machado de Assis",
+        "quantidade": 3
+    },
+    {
+        "titulo": "O Pequeno Príncipe",
+        "autor": "Antoine de Saint-Exupéry",
+        "quantidade": 0
+    },
+    {
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "quantidade": 5
+    },
+    {
+        "titulo": "Cem Anos de Solidão",
+        "autor": "Gabriel García Márquez",
+        "quantidade": 2
+    },
+    {
+        "titulo": "O Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "quantidade": 1
+    },
+    {
+        "titulo": "Orgulho e Preconceito",
+        "autor": "Jane Austen",
+        "quantidade": 4
+    },
+    {
+        "titulo": "Crime e Castigo",
+        "autor": "Fiódor Dostoiévski",
+        "quantidade": 0
+    },
+    {
+        "titulo": "A Metamorfose",
+        "autor": "Franz Kafka",
+        "quantidade": 3
+    },
+    {
+        "titulo": "O Nome da Rosa",
+        "autor": "Umberto Eco",
+        "quantidade": 2
+    },
+    {
+        "titulo": "As Crônicas de Nárnia",
+        "autor": "C.S. Lewis",
+        "quantidade": 0
+    },
+    {
+        "titulo": "Memórias Póstumas de Brás Cubas",
+        "autor": "Machado de Assis",
+        "quantidade": 6
+    },
+    {
+        "titulo": "O Processo",
+        "autor": "Franz Kafka",
+        "quantidade": 1
+    },
+    {
+        "titulo": "A Revolução dos Bichos",
+        "autor": "George Orwell",
+        "quantidade": 4
+    },
+    {
+        "titulo": "Ulisses",
+        "autor": "James Joyce",
+        "quantidade": 0
+    },
+    {
+        "titulo": "O Grande Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "quantidade": 2
+    },
+    {
+        "titulo": "Os Miseráveis",
+        "autor": "Victor Hugo",
+        "quantidade": 3
+    },
+    {
+        "titulo": "O Senhor dos Anéis",
+        "autor": "J.R.R. Tolkien",
+        "quantidade": 1
+    },
+    {
+        "titulo": "Moby Dick",
+        "autor": "Herman Melville",
+        "quantidade": 0
+    },
+    {
+        "titulo": "O Conde de Monte Cristo",
+        "autor": "Alexandre Dumas",
+        "quantidade": 2
+    },
+    {
+        "titulo": "O Lobo da Estepe",
+        "autor": "Hermann Hesse",
+        "quantidade": 1
+    },
+    {
+        "titulo": "Ilíada",
+        "autor": "Homero",
+        "quantidade": 3
+    },
+    {
+        "titulo": "Odisseia",
+        "autor": "Homero",
+        "quantidade": 2
+    },
+    {
+        "titulo": "A Divina Comédia",
+        "autor": "Dante Alighieri",
+        "quantidade": 1
+    },
+    {
+        "titulo": "Fausto",
+        "autor": "Johann Wolfgang von Goethe",
+        "quantidade": 0
+    }
+]
