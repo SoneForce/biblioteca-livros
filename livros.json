@@ -1,122 +1,82 @@
 [
     {
-        "titulo": "Dom Casmurro",
-        "autor": "Machado de Assis",
-        "quantidade": 3
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "quantidade": 0,
+        "tema": "Distopia, Ficção Científica",
+        "capa": "imagens/capas/1984.jpg",
+        "sinopse": "Em um mundo totalitário onde o governo controla todos os aspectos da vida, Winston Smith tenta resistir à opressão e encontrar liberdade, enquanto lida com a vigilância constante e a manipulação da verdade."
     },
     {
         "titulo": "O Pequeno Príncipe",
         "autor": "Antoine de Saint-Exupéry",
-        "quantidade": 0
-    },
-    {
-        "titulo": "1984",
-        "autor": "George Orwell",
-        "quantidade": 5
+        "quantidade": 8,
+        "tema": "Literatura Infantil, Filosofia",
+        "capa": "imagens/capas/O-Pequeno-Principe.jpg",
+        "sinopse": "A história de um jovem príncipe que viaja entre planetas, conhecendo personagens peculiares e refletindo sobre a vida, a amizade e o que realmente importa."
     },
     {
         "titulo": "Cem Anos de Solidão",
         "autor": "Gabriel García Márquez",
-        "quantidade": 2
-    },
-    {
-        "titulo": "O Hobbit",
-        "autor": "J.R.R. Tolkien",
-        "quantidade": 1
+        "quantidade": 0,
+        "tema": "Realismo Mágico, Literatura Latino-Americana",
+        "capa": "imagens/capas/Cem-Anos-de-Solidao.jpg",
+        "sinopse": "A saga da família Buendía na fictícia cidade de Macondo, misturando eventos fantásticos e realistas ao longo de várias gerações marcadas por amor, tragédia e solidão."
     },
     {
         "titulo": "Orgulho e Preconceito",
         "autor": "Jane Austen",
-        "quantidade": 4
-    },
-    {
-        "titulo": "Crime e Castigo",
-        "autor": "Fiódor Dostoiévski",
-        "quantidade": 0
-    },
-    {
-        "titulo": "A Metamorfose",
-        "autor": "Franz Kafka",
-        "quantidade": 3
-    },
-    {
-        "titulo": "O Nome da Rosa",
-        "autor": "Umberto Eco",
-        "quantidade": 2
-    },
-    {
-        "titulo": "As Crônicas de Nárnia",
-        "autor": "C.S. Lewis",
-        "quantidade": 0
-    },
-    {
-        "titulo": "Memórias Póstumas de Brás Cubas",
-        "autor": "Machado de Assis",
-        "quantidade": 6
-    },
-    {
-        "titulo": "O Processo",
-        "autor": "Franz Kafka",
-        "quantidade": 1
-    },
-    {
-        "titulo": "A Revolução dos Bichos",
-        "autor": "George Orwell",
-        "quantidade": 4
-    },
-    {
-        "titulo": "Ulisses",
-        "autor": "James Joyce",
-        "quantidade": 0
-    },
-    {
-        "titulo": "O Grande Gatsby",
-        "autor": "F. Scott Fitzgerald",
-        "quantidade": 2
-    },
-    {
-        "titulo": "Os Miseráveis",
-        "autor": "Victor Hugo",
-        "quantidade": 3
+        "quantidade": 0,
+        "tema": "Romance, Literatura Clássica",
+        "capa": "imagens/capas/Orgulho-e-Preconceito.jpg",
+        "sinopse": "Elizabeth Bennet enfrenta questões de amor, classe social e expectativas familiares ao se envolver com o rico, mas inicialmente arrogante, Sr. Darcy."
     },
     {
         "titulo": "O Senhor dos Anéis",
         "autor": "J.R.R. Tolkien",
-        "quantidade": 1
+        "quantidade": 2,
+        "tema": "Fantasia Épica",
+        "capa": "imagens/capas/O-Senhor-dos-Aneis.jpg",
+        "sinopse": "Frodo Bolseiro, um hobbit, embarca em uma jornada para destruir um anel maligno que ameaça o destino da Terra Média, acompanhado por amigos leais e enfrentando forças sombrias."
     },
     {
-        "titulo": "Moby Dick",
-        "autor": "Herman Melville",
-        "quantidade": 0
+        "titulo": "A Revolução dos Bichos",
+        "autor": "George Orwell",
+        "quantidade": 7,
+        "tema": "Sátira Política, Alegoria",
+        "capa": "imagens/capas/A-Revolucao-dos-Bichos.jpg",
+        "sinopse": "Animais de uma fazenda se rebelam contra os humanos, mas a revolução toma rumos inesperados quando os porcos assumem o poder, revelando uma crítica às tiranias."
     },
     {
-        "titulo": "O Conde de Monte Cristo",
-        "autor": "Alexandre Dumas",
-        "quantidade": 2
+        "titulo": "Memórias Póstumas de Brás Cubas",
+        "autor": "Machado de Assis",
+        "quantidade": 3,
+        "tema": "Literatura Brasileira, Realismo",
+        "capa": "imagens/capas/Memorias-Postumas.jpg",
+        "sinopse": "Narrado por um defunto, Brás Cubas reflete sobre sua vida medíocre, cheia de ironia e desilusões, em uma crítica mordaz à sociedade brasileira do século XIX."
     },
     {
-        "titulo": "O Lobo da Estepe",
-        "autor": "Hermann Hesse",
-        "quantidade": 1
+        "titulo": "O Estrangeiro",
+        "autor": "Albert Camus",
+        "quantidade": 4,
+        "tema": "Existencialismo, Filosofia",
+        "capa": "imagens/capas/O-Estrangeiro.jpg",
+        "sinopse": "Meursault, um homem indiferente à vida, enfrenta as consequências de um assassinato cometido sem motivo aparente, explorando o absurdo da existência humana."
     },
     {
-        "titulo": "Ilíada",
-        "autor": "Homero",
-        "quantidade": 3
+        "titulo": "A Metamorfose",
+        "autor": "Franz Kafka",
+        "quantidade": 5,
+        "tema": "Literatura Absurda, Existencialismo",
+        "capa": "imagens/capas/A-Metamorfose.jpg",
+        "sinopse": "Gregor Samsa acorda transformado em um inseto monstruoso, lidando com o isolamento e a rejeição de sua família, em uma reflexão sobre identidade e alienação."
     },
     {
-        "titulo": "Odisseia",
-        "autor": "Homero",
-        "quantidade": 2
-    },
-    {
-        "titulo": "A Divina Comédia",
-        "autor": "Dante Alighieri",
-        "quantidade": 1
-    },
-    {
-        "titulo": "Fausto",
-        "autor": "Johann Wolfgang von Goethe",
-        "quantidade": 0
+        "titulo": "Os Miseráveis",
+        "autor": "Victor Hugo",
+        "quantidade": 3,
+        "tema": "Romance Histórico, Justiça Social",
+        "capa": "imagens/capas/Os-Miseraveis.jpg",
+        "sinopse": "A jornada de Jean Valjean, um ex-prisioneiro que busca redenção em meio às injustiças da França do século XIX, entrelaçada com histórias de amor, revolução e sacrifício."
     }
 ]

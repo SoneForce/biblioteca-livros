@@ -2,55 +2,46 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <title>Biblioteca Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
- <!-- INTERFACE SUPERIOR -->
-
 <body>
-    <header id="header">
-        <div class="container">
-
-            <div class="flex">
-
-                <a href="#"><i class="bi bi-book"></i></a>
-
-                <nav>
-                    <ul>
-                        <li><a href="PrimeiraPagina.html" target="_blank">HOME</a></li>
-                        <li><a href="https://www.google.com.br/maps" target="_blank">Localização</a></li>
-                        <li><a href="SegundaPagina.html" target="_blank">OPÇÃO2</a></li>
-                        <li><a href="TerceiraPagina.html" target="_blank">SOBRE</a></li>
-                    </ul>
-                </nav>
-
-                <div class="btn-contato">
-                    <a href="#"><button>CONTATO</button></a>
-                </div>
-
+    <header id="header" class="header">
+        <div class="container flex">
+            <a href="index.html" aria-label="Página Inicial" class="logo"><i class="bi bi-book"></i></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://www.google.com.br/maps/place/E.E.+Jardim+Santo+Andre+III" target="_blank">Localização</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <button onclick="abrirCardContato()" aria-label="Entre em contato">CONTATO</button>
             </div>
-
         </div>
     </header>
 
     <section class="banner">
-        <h1><span>Biblioteca Online</span></h1>
+        <div class="container"><h1><span>Biblioteca Online</span></h1></div>
     </section>
-    
- <!-- INTERFACE INFERIOR -->
 
-    <section class="pesquisa">
-        <input type="text" id="searchInput" placeholder="Localizador Titulos ou autores">
-        <button onclick="buscarLivro()">Buscar</button>
-        <ul id="resultadoPesquisa"></ul>
+    <section class="destaques container">
+        <h2>Destaques</h2>
+        <div class="destaques-container" id="destaquesLivros"></div>
     </section>
-    
+
+    <div class="pesquisa container">
+        <div class="search-form">
+            <input type="text" id="searchInput" class="search-input" placeholder="Localizador Titulos ou autores" aria-label="Pesquisar livros">
+            <button class="search-button" onclick="buscarLivro()" aria-label="Buscar livros">Buscar</button>
+        </div>
+        <ul id="resultadoPesquisa" class="search-results"></ul>
+    </div>
+
     <script src="pesquisa.js"></script>
-    
     <script src="menu.js"></script>
 </body>
 </html>
