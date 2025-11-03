@@ -130,4 +130,20 @@ async function carregarSugestoes() {
         console.error("Erro ao carregar sugestões:", error);
     }
 }
+function toggleAcessibilidadeMenu() {
+    const menu = document.getElementById('acessibilidade-menu');
+    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+}
+function aplicarModo(modo) {
+    document.body.classList.remove('dark', 'protanopia', 'deuteranopia', 'tritanopia');
+    if (modo !== 'light') {
+        document.body.classList.add(modo);
+    }
+    localStorage.setItem('modoAcessibilidade', modo);
+    toggleAcessibilidadeMenu();
+}
+document.addEventListener('DOMContentLoaded', () => {
+    const modoSalvo = localStorage.getItem('modoAcessibilidade') || 'light';
+    aplicarModo(modoSalvo);
+});
 document.addEventListener("DOMContentLoaded", carregarSugestoes);

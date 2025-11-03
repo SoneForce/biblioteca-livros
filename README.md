@@ -1,9 +1,9 @@
-PROJETO INTEGRADOR - DRP14-Projeto Integrador em Computação I-Turma 004
+PROJETO INTEGRADOR - DRP14-Projeto Integrador em Computação I-Turma 006
 
 💻 Tema do PI
 
-Resolução de problemas. Levantamento de requisitos. Desenvolvimento web com framework. HTML. CSS. Linguagem de script. Banco de Dados. Controle de Versão. Nuvem. API. Acessibilidade. Testes. Análise de dados.
+Desenvolvimento de um software com framework web que utilize noções de banco de dados, praticando controle de versão.
 
-Protótipo v1.0.0 - v1.0.7(last release)
+Protótipo v1.0.0
 
 Verifique a ultima versão do projeto integrado em https://github.com/S0nneHeim/biblioteca-livros/releases

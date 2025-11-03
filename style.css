@@ -372,3 +372,66 @@ nav ul li a:hover {
     0% { transform: translateX(-10px); }
     100% { transform: translateX(10px); }
 }
+.btn-acessibilidade {
+    position: relative;
+}
+.btn-acessibilidade button {
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background: var(--primary-color);
+    color: var(--background-color);
+    cursor: pointer;
+    border-radius: var(--radius);
+}
+.acessibilidade-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: var(--background-color);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+.acessibilidade-dropdown button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    background: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.acessibilidade-dropdown button:hover {
+    background: var(--primary-color);
+    color: var(--background-color);
+}
+
+body.dark {
+    --background-color: #1e1e1e;
+    --primary-color: #ff8c6b;
+    background: #121212;
+    color: #e0e0e0;
+}
+body.dark .header.rolagem,
+body.dark .destaque-card,
+body.dark .search-results li,
+body.dark .card-detalhe,
+body.dark .sobre-conteudo {
+    background: #2a2a2a;
+    color: #e0e0e0;
+}
+body.dark .logo i,
+body.dark .nav-menu ul li a,
+body.dark .btn-contato button {
+    color: #e0e0e0;
+}
+body.dark .banner {filter: brightness(0.8);}
+body.protanopia {filter: hue-rotate(180deg) saturate(0.5);}
+body.deuteranopia {filter: hue-rotate(90deg) saturate(0.6);}
+body.tritanopia {filter: hue-rotate(-90deg) saturate(0.7);}
+body {transition: background-color 0.3s, color 0.3s, filter 0.3s;}
